@@ -1,0 +1,103 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Desplegable de Componentes</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+   {
+ margin: 0;
+   padding: 0;
+  box-sizing: border-box;
+     }
+ body {
+  font-family: Arial, sans-serif;
+ background-color: #f4f4f9;
+color: #333;
+        }
+    header {
+    background-color: #333;
+  padding: 10px;
+        }
+ .navbar ul {
+list-style-type: none;
+display: flex;
+justify-content: center;
+        }
+  .navbar ul li {
+  position: relative;
+ }
+  .navbar ul li a {
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+   }
+.navbar ul li:hover a {
+    background-color: #555;
+   }
+   .dropdown-content {
+   display: none;
+   position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+    }
+  .dropdown-content li a {
+  padding: 10px;
+ color: #ffffff;
+ text-decoration: none;
+  display: block;
+        }
+ .dropdown-content li a:hover {
+  background-color: #555;
+        }
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+  main {
+ text-align: center;
+ padding: 40px;
+   }
+  h1 {
+   font-size: 2em;
+  color: #333;
+        }
+   p {
+     margin-top: 10px;
+     font-size: 1.2em;
+   color: #666;
+   }
+    </style>
+</head>
+<body>
+  <header>
+  <nav class="navbar">
+  <ul>
+ <li><a href="index.html">Inicio</a></li>
+   <li class="dropdown">
+   <a href="#" class="dropbtn">Componentes</a>
+   <ul class="dropdown-content">
+   <li><a href="https://www.terabyteshop.com.br/hardware/processadores/intel">Procesador</a></li>
+     <li><a href="https://www.terabyteshop.com.br/hardware/placas-mae/lga-1851-intel">Placa Madre</a></li>
+    <li><a href="https://www.terabyteshop.com.br/hardware/memorias/ddr5">Memoria RAM</a></li>
+     <li><a href="https://www.terabyteshop.com.br/hardware/placas-de-video/nvidia-geforce">Tarjeta Gráfica</a></li>
+   <li><a href="https://www.terabyteshop.com.br/refrigeracao/watercooler">Refrigeración</a></li>
+    <li><a href="https://www.terabyteshop.com.br/hardware/fontes">Fuente de Poder</a></li>
+ <li><a href="https://www.terabyteshop.com.br/hardware/hard-disk">Memoria</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+<IMG src="https://www.terabyteshop.com.br/img/og_tb.png">
+        <h1>Componentes de Computadora</h1>
+        
+    </main>
+</body>
+</html>
